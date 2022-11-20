@@ -96,6 +96,7 @@ main {
     background-color: var(--off-white);
 }
 .main-exchange-container {
+    
     width: 100%;
     height: auto;
     padding-top: 80px;
@@ -133,6 +134,15 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container {
+    display: flex;
+    gap: 150px;
+    height: 370px;
+    padding: 0 75px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .main-currency-table, .main-currency-table-2 {
     width: 70%;
     min-width: 235px;
@@ -158,6 +168,7 @@ main {
 }
 
 .currency-table--container {
+    scroll-snap-align: center;
     width: 90%;
     min-width: 230px;
     max-width: 300px;
@@ -452,7 +463,7 @@ border-radius: 15px 0 0 0;
     color: var(--black);
 }
 .popup-btn {
-    border: 2px solid #c90909;
+    border: 2px solid #e93535;
 }
 .popup-btn2 {
     border: 2px solid #0c701d;
