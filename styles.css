@@ -173,8 +173,8 @@ main {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
-    color: var(--grey);
     background-color: var(--just-white);
+    opacity: 0.7;
 }
 .currency-table--container .table__top-left {
 border-radius: 15px 0 0 0;
@@ -396,15 +396,23 @@ border-radius: 15px 0 0 0;
 .recommended {
     position: absolute;
     width: 120px;
-    height: 31px;
     padding: 6px;
     top: -15px;
     left: calc(50% - 60px);
     font-size: 1.2rem;
+    font-family: "Inter", sans-serif;;
+    font-weight: bold;
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
     color: var(--just-white);
 }
+.popup {
+    background-color: #c90909;
+}
+.popup2 {
+    background-color: #0c701d;
+}
+
 .plan-card--tittle {
     padding-top: 30px;
     font-size: 1.4rem;
@@ -443,12 +451,25 @@ border-radius: 15px 0 0 0;
     line-height: 1.8rem;
     color: var(--black);
 }
+.popup-btn {
+    border: 2px solid #c90909;
+}
+.popup-btn2 {
+    border: 2px solid #0c701d;
+}
 .plan-card--ca span {
     display: inline-block;
     width: 20px;
     height: 20px;
     background-image: url('./assets/icons/orange-right-arrow.svg');
     vertical-align: text-bottom;
+    fill: black;
+}
+.popup-btn span {
+    background-image: url('./assets/icons/red-right-arrow.svg');
+}
+.popup-btn2 span {
+    background-image: url('./assets/icons/green-right-arrow.svg');
 }
 footer {
     display: flex;

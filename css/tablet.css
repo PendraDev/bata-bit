@@ -12,4 +12,6 @@
 .plans-container--sliders {
     justify-content: center;
 }
-
+.plan-card--saving br {
+    display: none;
+}
